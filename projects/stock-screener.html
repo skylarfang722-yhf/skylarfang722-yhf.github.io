@@ -1,25 +1,111 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <title>Stock Screener</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Stock Screener | Skylar Fang</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <div class="container">
-<h1>Stock Screener Project</h1>
 
-<p><b>Goal:</b> Build a stock selection framework using financial indicators.</p>
+  <header>
+    <h1>Stock Screener — Multi-Dimensional Fundamental Framework</h1>
+    <p class="subtitle">Finance + Analytics | Finviz Screener | Valuation • Profitability • Leverage • Liquidity</p>
+    <p class="nav">
+      <a href="../index.html">Home</a>
+      <a href="./stock-screener.html">This Project</a>
+      <a href="./covid-unemployment.html">Next Project</a>
+    </p>
+  </header>
 
-<p><b>Methods:</b></p>
-<ul>
-<li>Valuation: P/E, P/S</li>
-<li>Profitability: ROE, Operating Margin</li>
-<li>Risk: Debt/Equity, Current Ratio</li>
-</ul>
+  <section class="card">
+    <h2>Overview</h2>
+    <p>
+      In this stock picking analysis, I applied a multi-dimensional assessment system using the Finviz screener to find
+      fundamentally reliable stocks with reasonable valuation. Based on key ideas from financial statement analysis, I selected
+      representative indicators across price, profitability, financial leverage, and liquidity to build an integrated screening framework.
+      After screening, I filtered 13 stocks across different industries, suggesting the selected ratio combination does not bias results
+      toward a single sector.
+    </p>
+  </section>
 
-<p><b>Results:</b> Selected high-quality stocks using multi-factor screening.</p>
+  <section class="card">
+    <h2>Framework</h2>
+    <p><b>Screening logic:</b> choose companies that are reasonably priced, profitable, operationally efficient, financially stable, and liquid enough for short-term obligations.</p>
+    <ul>
+      <li><b>Valuation:</b> P/E &lt; 15, P/S &lt; 1</li>
+      <li><b>Profitability:</b> ROE &gt; 15%, Operating Margin &gt; 10%</li>
+      <li><b>Risk control:</b> Debt/Equity &lt; 1</li>
+      <li><b>Liquidity:</b> Current Ratio &gt; 2</li>
+    </ul>
+    <p>
+      These six ratios form a balanced and robust screening method. Together, they target companies with reasonable valuation,
+      strong profitability, high efficiency, stable financing, and good short-term financial condition.
+    </p>
+  </section>
 
-<p><a href="../index.html">Back to Home</a></p>
+  <section class="card">
+    <h2>Results</h2>
+    <ul>
+      <li>Screened <b>13 stocks</b> across multiple industries (finance, energy, technology, etc.).</li>
+      <li>Industry coverage suggests the framework avoids excessive concentration in one category.</li>
+      <li>The final output is a shortlist suitable for deeper company-level research.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Case Study 1 — Value Stock: Walmart (Summary)</h2>
+    <p>
+      I used Walmart as a value-stock example because it reflects stability and long-run competitive advantages rather than rapid expansion.
+      Quantitatively, Walmart shows stable profitability and manageable leverage. Qualitatively, it benefits from scale-based cost advantages,
+      diversified products, and a loyal customer base, which support stable performance through economic cycles.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Case Study 2 — Growth Stock: NVIDIA (Summary)</h2>
+    <p>
+      I used NVIDIA as a growth-stock example because it matches key growth-investing characteristics: strong future growth potential, high reinvestment,
+      competitive advantages, and broad market prospects.
+    </p>
+
+    <p><b>Quantitative highlights:</b></p>
+    <ul>
+      <li>Strong profit growth and high profitability (high ROE and profit margin).</li>
+      <li>Higher P/E is normal for growth stocks when investors price in future earnings expansion.</li>
+    </ul>
+
+    <p><b>Qualitative highlights:</b></p>
+    <ul>
+      <li><b>Moat:</b> leading GPU technology + CUDA ecosystem creates high switching costs and long-term competitive edge.</li>
+      <li><b>Large market potential:</b> positioned in fast-growing sectors such as AI, data centers, cloud computing, and autonomous driving.</li>
+      <li><b>Innovation structure:</b> heavy R&D supports continuous product improvement and expansion into new opportunities.</li>
+      <li><b>Operational strength:</b> very high profit margins suggest both growth and efficiency.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>What I Would Improve Next</h2>
+    <ul>
+      <li><b>Automation:</b> rebuild the screener in Python to make the screening reproducible and scalable.</li>
+      <li><b>Validation:</b> add a simple backtest or performance tracking vs. a benchmark index.</li>
+      <li><b>Reporting:</b> present results in a small dashboard (table + key charts) for recruiter-friendly communication.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>References</h2>
+    <ul>
+      <li>Finviz — Stock screener: Fundamental filters</li>
+      <li>Finviz — NVDA and WMT quote/stat pages</li>
+    </ul>
+    <p class="tags">Note: This portfolio page summarizes a longer course assignment and is written to be recruiter-friendly.</p>
+  </section>
+
+  <p><a href="../index.html">Back to Home</a></p>
+
 </div>
 </body>
 </html>
+
