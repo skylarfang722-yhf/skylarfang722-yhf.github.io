@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+}
+header {
+  border-bottom: 2px solid #eee;
+  margin-bottom: 20px;
+}
+h1 {
+  margin-bottom: 0;
+}
+.subtitle {
+  color: gray;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.nav a {
+  margin-right: 12px;
+  text-decoration: none;
+}
+.footer {
+  color: gray;
+  font-size: 12px;
+  margin-top: 20px;
+}
